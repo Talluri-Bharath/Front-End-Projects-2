@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Next XI - Football Scouting</title>
+
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<div id="home">
+
+    <div align="center">
+
+        <h1>⚽ NEXT XI</h1>
+
+        <h3>Football Talent Scouting Portal</h3>
+
+        <p>
+            Discover young football talent and give them
+            an opportunity to reach the next level.
+        </p>
+
+    </div>
+
+
+    <!-- Navigation -->
+
+    <div align="center">
+
+        <a href="#home">Home</a> &nbsp; | &nbsp;
+
+        <a href="#players">Players</a> &nbsp; | &nbsp;
+
+        <a href="#scouting">Scouting</a> &nbsp; | &nbsp;
+
+        <a href="#trials">Trials</a> &nbsp; | &nbsp;
+
+        <a href="#apply">Apply</a> &nbsp; | &nbsp;
+
+        <a href="#contact">Contact</a>
+
+    </div>
+
+</div>
+
+
+<hr>
+
+
+
+<div id="players">
+
+    <div align="center">
+
+        <img
+            src="../images/Football_banner.jpg"
+            alt="Football Stadium"
+            width="100%"
+            height="450">
+
+        <h2>🏆 FIND THE NEXT SUPERSTAR</h2>
+
+        <p>
+            Your talent. Your opportunity.
+            Your journey starts here.
+        </p>
+
+        <a href="#apply">⚽ Apply for Trial</a>
+
+    </div>
+
+</div>
+
+
+<hr>
+
+
+<!-- ================= SCOUTING SECTION ================= -->
+
+<div id="scouting">
+
+    <div align="center">
+
+        <h2>⭐ SCOUTING PROGRAMS</h2>
+
+        <p>
+            Choose your football path and showcase your talent.
+        </p>
+
+    </div>
+
+
+    <!-- Attacking Players -->
+
+    <div>
+
+        <div>
+
+            <h3>⚡ Attacking Players</h3>
+
+            <img
+                src="../images/Messi.jpg"
+                alt="Attacking Player"
+                width="450"
+                height="300">
+
+            <p>
+                Strikers and wingers who can create
+                chances and score goals.
+            </p>
+
+            <a href="#apply">Apply as Attacker</a>
+
+        </div>
+
+
+        <hr>
+
+
+        <!-- Defensive Players -->
+
+        <div>
+
+            <h3>🛡️ Defensive Players</h3>
+
+            <img
+                src="../images/william-saliba.jpg"
+                alt="Defensive Player"
+                 width="450"
+                height="300">
+
+            <p>
+                Defenders and goalkeepers who can
+                protect the team.
+            </p>
+
+            <a href="#apply">Apply as Defender</a>
+
+        </div>
+
+
+        <hr>
+
+
+        <!-- Midfield Players -->
+
+        <div>
+
+            <h3>🎯 Midfield Players</h3>
+
+            <img
+                src="../images/Pedri.jpg"
+                alt="Midfield Player"
+                width="450"
+                height="300">
+
+            <p>
+                Creative and defensive midfielders
+                who control the game.
+            </p>
+
+            <a href="#apply">Apply as Midfielder</a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<hr>
+
+
+<!-- ================= TRIAL SECTION ================= -->
+
+<div id="trials">
+
+    <div align="center">
+
+        <h2>🏟️ UPCOMING FOOTBALL TRIALS</h2>
+
+    </div>
+
+
+    <div>
+
+        <h3>⚽ Elite Youth Trial</h3>
+
+        <p>
+            Location: Next XI Football Academy
+        </p>
+
+        <p>
+            Age Group: 16 - 21 Years
+        </p>
+
+        <p>
+            Trial Type: Open Selection
+        </p>
+
+        <a href="#apply">Register for Trial</a>
+
+    </div>
+
+
+    <hr>
+
+
+    <div>
+
+        <h3>🏆 Rising Stars Trial</h3>
+
+        <p>
+            Location: National Football Ground
+        </p>
+
+        <p>
+            Age Group: 18 - 24 Years
+        </p>
+
+        <p>
+            Trial Type: Talent Scouting
+        </p>
+
+        <a href="#apply">Register for Trial</a>
+
+    </div>
+
+</div>
+
+
+<hr>
+
+
+<!-- ================= APPLICATION FORM ================= -->
+
+<div id="apply">
+
+    <div align="center">
+
+        <h2>📝 PLAYER TRIAL APPLICATION</h2>
+
+        <p>
+            Submit your details to participate in the
+            Next XI scouting program.
+        </p>
+
+    </div>
+
+
+    <form action="./register.jsp" method="post">
+
+
+       
+
+        <div>
+
+            <label>Player Name</label>
+
+            <br>
+
+            <input
+                type="text"
+                name="playerName"
+                placeholder="Enter Player Name"
+                pattern="^[A-Z][a-z]{3,15}$"
+                required
+                autofocus>
+
+        </div>
+
+
+        <br>
+
+
+
+
+        <div>
+
+            <label>Player Portal Password</label>
+
+            <br>
+
+            <input
+                type="text"
+           
+                placeholder="Enter Password"
+                pattern="(?=.*[A-Z])(?=.*[0-9])(?=.*[\W])[\w\W]{8,15}"
+                required>
+
+        </div>
+
+
+        <br>
+
+
+     
+
+        <div>
+
+            <label>Player Position</label>
+
+            <br>
+
+            <input
+                type="radio"
+                name="position"
+                value="Goalkeeper"
+                required>
+
+            Goalkeeper
+
+            <br>
+
+            <input
+                type="radio"
+                name="position"
+                value="Defender">
+
+            Defender
+
+            <br>
+
+            <input
+                type="radio"
+                name="position"
+                value="Midfielder">
+
+            Midfielder
+
+            <br>
+
+            <input
+                type="radio"
+                name="position"
+                value="Forward">
+
+            Forward
+
+        </div>
+
+
+        <br>
+
+
+      
+
+        <div>
+
+            <label>Football Skills</label>
+
+            <br>
+
+            <input
+                type="checkbox"
+                name="skills"
+                value="Dribbling">
+
+            Dribbling
+
+            <br>
+
+            <input
+                type="checkbox"
+                name="skills"
+                value="Passing">
+
+            Passing
+
+            <br>
+
+            <input
+                type="checkbox"
+                name="skills"
+                value="Shooting">
+
+            Shooting
+
+            <br>
+
+            <input
+                type="checkbox"
+                name="skills"
+                value="Speed">
+
+            Speed
+
+            <br>
+
+            <input
+                type="checkbox"
+                name="skills"
+                value="Tackling">
+
+            Tackling
+
+            <br>
+
+            <input
+                type="checkbox"
+                name="skills"
+                value="Ball Control">
+
+            Ball Control
+
+        </div>
+
+
+        <br>
+
+
+       
+
+        <div>
+
+            <label>Preferred Academy</label>
+
+            <br>
+
+            <select name="academy" required>
+
+                <option value="">
+                    Select Academy
+                </option>
+
+                <option value="Youth Academy">
+                    Youth Academy
+                </option>
+
+                <option value="Elite Academy">
+                    Elite Academy
+                </option>
+
+                <option value="Development Academy">
+                    Development Academy
+                </option>
+
+                <option value="International Academy">
+                    International Academy
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <br>
+
+
+
+        <div>
+
+            <label>Trial Date</label>
+
+            <br>
+
+            <input
+                type="date"
+                name="trialDate"
+                required>
+
+        </div>
+
+
+        <br>
+
+
+
+        <div>
+
+            <label>Preferred Trial Time</label>
+
+            <br>
+
+            <input
+                type="time"
+                name="trialTime"
+                required>
+
+        </div>
+
+
+        <br>
+
+
+        <!-- Color -->
+
+        <div>
+
+            <label>Choose Jersey Color</label>
+
+            <br>
+
+            <input
+                type="color"
+                name="jerseyColor"
+                value="#008000">
+
+        </div>
+
+
+        <br>
+
+
+        <!-- File -->
+
+        <div>
+
+            <label>Upload Player ID</label>
+
+            <br>
+
+            <input
+                type="file"
+                name="playerId"
+                accept=".jpg,.png,.pdf"
+                required>
+
+        </div>
+
+
+        <br>
+
+
+       
+
+        <div>
+
+            <label>
+                Tell Us About Your Football Journey
+            </label>
+
+            <br>
+
+            <textarea
+                name="footballJourney"
+                rows="6"
+                cols="50"
+                placeholder="Describe your football experience..."
+                minlength="20"
+                maxlength="300"
+                required></textarea>
+
+        </div>
+
+
+        <br>
+
+
+     
+
+        <div>
+
+            <label>⚡ Player Fitness Level</label>
+
+            <br>
+
+            <meter
+                min="0"
+                max="100"
+                value="82"
+                low="40"
+                high="80"
+                optimum="90">
+
+            </meter>
+
+        </div>
+
+
+        <br>
+
+
+      
+
+        <div>
+
+            <label>🏆 Trial Preparation</label>
+
+            <br>
+
+            <progress
+                min="0"
+                max="100"
+                value="70">
+
+            </progress>
+
+        </div>
+
+
+        <br>
+
+
+     
+
+        <div>
+
+            <input
+                type="checkbox"
+                name="agreement"
+                required>
+
+            I agree to the Next XI trial rules.
+
+        </div>
+
+
+        <br>
+
+
+   
+
+        <div>
+
+            <button type="submit">
+                ⚽ APPLY FOR TRIAL
+            </button>
+
+            <button type="reset">
+                RESET
+            </button>
+
+        </div>
+
+
+    </form>
+
+</div>
+
+
+<hr>
+
+
+
+<div id="rules">
+
+    <div align="center">
+
+        <h2>📋 TRIAL RULES</h2>
+
+    </div>
+
+
+    <div>
+
+        <ol>
+
+            <li>Players must report before the trial time.</li>
+
+            <li>Valid player identification is required.</li>
+
+            <li>Players must wear proper sportswear.</li>
+
+            <li>Players should bring their football equipment.</li>
+
+            <li>Selection depends on trial performance.</li>
+
+        </ol>
+
+    </div>
+
+</div>
+
+
+<hr>
+
+
+
+<div id="contact">
+
+    <div align="center">
+
+        <h2>📡 CONTACT NEXT XI</h2>
+
+        <p>
+            Need help with your football trial?
+        </p>
+
+        <p>
+
+            📧
+            <a href="mailto:talluribharath6@gmail.com">
+                Email Scout
+            </a>
+
+            &nbsp;&nbsp;
+
+            📞
+            <a href="tel:9876543210">
+                Call Academy
+            </a>
+
+        </p>
+
+        <p>
+
+            🌐
+            <a href="https://www.google.com"
+               target="_blank">
+                Visit Football Portal
+            </a>
+
+        </p>
+
+    </div>
+
+</div>
+
+
+<hr>
+
+
+
+
+<div align="center">
+
+    <h3>⚽ NEXT XI</h3>
+
+    <p>
+        Scout • Train • Play • Become the Next Star
+    </p>
+
+    <a href="#home">
+        ⬆️ Back to Top
+    </a>
+
+    <p>
+        &copy; 2026 Next XI Football Scouting Portal
+    </p>
+
+</div>
+
+</body>
+
+</html>
