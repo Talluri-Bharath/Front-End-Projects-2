@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>OCEANIC - Luxury Cruise</title>
+
+    <style>
+
+        * {
+             margin: 0;
+             padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+           
+            font-family: Arial, sans-serif;
+            background: #06141f;
+            color: white;
+        }
+
+        .container {
+            width: 100%;
+            margin: auto;
+        }
+
+       
+
+        .hero {
+          
+         
+        padding: 20px;
+
+            text-align: center;
+          
+        }
+
+        .hero h1 {
+            font-size: 70px;
+            letter-spacing: 12px;
+          
+        }
+
+        .hero p {
+            font-size: 20px;
+            letter-spacing: 5px;
+        }
+
+       
+
+        .section-title {
+            text-align: center;
+            margin: 60px 0 25px;
+        }
+
+        .section-title h2 {
+            font-size: 32px;
+            letter-spacing: 3px;
+            margin-bottom: 8px;
+        }
+
+        .section-title p {
+            color: #9bb5c7;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #0b2231;
+        }
+
+        th {
+            background: #123c52;
+            color: #8ee7ff;
+            padding: 18px;
+            
+        }
+
+        td {
+            padding: 16px;
+            border: 1px solid #285065;
+            text-align: center;
+        }
+
+       
+
+        img {
+          width: 100%;
+         margin: auto;
+        }
+
+        .main-image {
+            width: 100%;
+            height: 330px;
+            /* object-fit: cover; */
+        }
+
+        .small-image {
+            width: 180px;
+            height: 120px;
+            /* object-fit: cover; */
+        }
+
+        .room-image {
+            width: 100%;
+            height: 290px;
+            /* object-fit: cover; */
+        }
+
+        .gold {
+            color: #f5c76b;
+        }
+
+        .green {
+            color: #69e6a5;
+        }
+
+        .red {
+            color: #ff7272;
+        }
+
+        /* ================= SHIP OVERVIEW ================= */
+
+        
+
+        .ship-name {
+            font-size: 28px;
+            color: #f5c76b;
+        }
+
+        .value {
+            font-size: 20px;
+            color: #8ee7ff;
+        }
+
+        /* ================= ROUTE ================= */
+
+        .route-table th {
+            background: #174a60;
+        }
+
+        
+
+        /* ================= DECK ================= */
+
+        
+
+        /* ================= CABINS ================= */
+
+        .nested-table {
+            width: 100%;
+            margin-top: 10px;
+            background: #061923;
+        }
+
+        .nested-table th {
+            font-size: 13px;
+            padding: 10px;
+        }
+
+        .nested-table td {
+            font-size: 13px;
+            padding: 10px;
+        }
+
+       
+
+        
+        .experience-table h3 {
+            color: #f5c76b;
+        }
+
+       
+
+      
+
+        .offer {
+            background: #173d31;
+            color: #69e6a5;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 20px;
+        }
+
+   
+
+        footer {
+            margin-top: 70px;
+            padding: 40px;
+            text-align: center;
+            background: #030c13;
+            color: #8fa8b5;
+        }
+        footer p
+        {
+            margin-top: 10px;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <!-- ================= HERO ================= -->
+
+    <div class="hero">
+
+        <h1>OCEANIC</h1>
+
+        <p>
+            LUXURY BEYOND THE HORIZON
+        </p>
+
+        <p>
+            🌊 Mediterranean Grand Voyage
+        </p>
+
+    </div>
+
+
+    <div class="container">
+
+
+        <div class="section-title">
+
+            <h2>🛳️ SHIP OVERVIEW</h2>
+
+            <p>
+                Discover the Oceanic Grand
+            </p>
+
+        </div>
+
+
+        <table class="ship-table">
+
+            <tr>
+
+                <!-- ROWSPAN -->
+
+                <td rowspan="5">
+
+                    <img
+                        class="main-image"
+                        src="./images/titanic.jpg"
+                        alt="Luxury Cruise Ship">
+
+                </td>
+
+                <td class="ship-name">
+                    OCEANIC GRAND
+                </td>
+
+            </tr>
+
+
+            <tr>
+
+                <td>
+                    <strong>Capacity</strong>
+                    <br>
+                    <span class="value">2,400 Guests</span>
+                </td>
+
+            </tr>
+
+
+            <tr>
+
+                <td>
+                    <strong>Crew</strong>
+                    <br>
+                    <span class="value">850 Crew Members</span>
+                </td>
+
+            </tr>
+
+
+            <tr>
+
+                <td>
+                    <strong>Decks</strong>
+                    <br>
+                    <span class="value">12 Luxury Decks</span>
+                </td>
+
+            </tr>
+
+
+            <tr>
+
+                <td>
+                    <strong>Ship Length</strong>
+                    <br>
+                    <span class="value">290 Meters</span>
+                </td>
+
+            </tr>
+
+        </table>
+
+
+
+        <!-- ================= VOYAGE ROUTE ================= -->
+
+        <div class="section-title">
+
+            <h2>🌍 GRAND VOYAGE ROUTE</h2>
+
+            <p>
+                10 Nights across the Mediterranean
+            </p>
+
+        </div>
+
+
+        <table class="route-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>Day</th>
+
+                    <th>Destination</th>
+
+                    <th>Arrival</th>
+
+                    <th>Departure</th>
+
+                    <th>Activity</th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                <tr>
+
+                    <td>DAY 01</td>
+
+                    <td>🇮🇹 Venice</td>
+
+                    <td>—</td>
+
+                    <td>08:00 PM</td>
+
+                    <td>Departure</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>DAY 02</td>
+
+                    <td>🌊 At Sea</td>
+
+                    <td>—</td>
+
+                    <td>—</td>
+
+                    <td>Onboard Activities</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>DAY 03</td>
+
+                    <td>🇬🇷 Santorini</td>
+
+                    <td>07:00 AM</td>
+
+                    <td>06:00 PM</td>
+
+                    <td>Island Tour</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>DAY 04</td>
+
+                    <td><sub>GR</sub> Athens</td>
+
+                    <td>08:00 AM</td>
+
+                    <td>08:00 PM</td>
+
+                    <td>City Exploration</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>DAY 05</td>
+
+                    <td>🇹🇷 Istanbul</td>
+
+                    <td>09:00 AM</td>
+
+                    <td>09:00 PM</td>
+
+                    <td>Historical Tour</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>DAY 06</td>
+
+                    <td>🌊 At Sea</td>
+
+                    <td>—</td>
+
+                    <td>—</td>
+
+                    <td>Luxury Day</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>DAY 07</td>
+
+                    <td>🇮🇹 Rome</td>
+
+                    <td>08:00 AM</td>
+
+                    <td>07:00 PM</td>
+
+                    <td>Rome Experience</td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+
+
+       
+        <div class="section-title">
+
+            <h2>🛳️ DECK PLANNER</h2>
+
+            <p>
+                Explore the world inside Oceanic
+            </p>
+
+        </div>
+
+
+        <table class="deck-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>Deck</th>
+
+                    <th>Category</th>
+
+                    <th>Facilities</th>
+
+                    <th>Access</th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                <tr>
+
+                    <td>DECK 12</td>
+
+                    <td>🌟 Sky Deck</td>
+
+                    <td>Observatory + Lounge + Sky Bar</td>
+
+                    <td class="green">Guests</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>DECK 11</td>
+
+                    <td>🏊 Recreation</td>
+
+                    <td>Infinity Pool + Pool Bar</td>
+
+                    <td class="green">Guests</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>DECK 10</td>
+
+                    <td>🍽️ Dining</td>
+
+                    <td>Restaurants + Café</td>
+
+                    <td class="green">Guests</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>DECK 09</td>
+
+                    <td>🛏️ Premium</td>
+
+                    <td>Luxury Suites</td>
+
+                    <td class="green">Guests</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>DECK 08</td>
+
+                    <td>🛏️ Cabins</td>
+
+                    <td>Ocean View Cabins</td>
+
+                    <td class="green">Guests</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>DECK 07</td>
+
+                    <td>🎭 Entertainment</td>
+
+                    <td>Grand Theater + Cinema</td>
+
+                    <td class="green">Guests</td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+
+
+       
+
+        <div class="section-title">
+
+            <h2>🛏️ CABIN COLLECTION</h2>
+
+            <p>
+                Choose your perfect ocean view
+            </p>
+
+        </div>
+
+
+        <table>
+
+            <tr>
+
+                <!-- ROWSPAN -->
+
+                <td rowspan="2">
+
+                    <img
+                        class="room-image"
+                        src="./images/Room"
+                        alt="Luxury Ocean Suite">
+
+                </td>
+
+
+                <td>
+
+                    <h2 class="gold">
+                        🌊 OCEAN VIEW SUITE
+                    </h2>
+
+                    <p>
+                        Wake up to a beautiful view of the Mediterranean Sea.
+                    </p>
+
+
+                    <!-- NESTED TABLE -->
+
+                    <table class="nested-table">
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Bed</th>
+
+                                <th>View</th>
+
+                                <th>Capacity</th>
+
+                                <th>Extras</th>
+
+                            </tr>
+
+                        </thead>
+
+
+                        <tbody>
+
+                            <tr>
+
+                                <td>King Bed</td>
+
+                                <td>Ocean View</td>
+
+                                <td>2 Guests</td>
+
+                                <td>Balcony</td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>Breakfast</td>
+
+                                <td>WiFi</td>
+
+                                <td>Mini Bar</td>
+
+                                <td>Room Service</td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </td>
+
+            </tr>
+
+
+            <tr>
+
+                <td>
+
+                    <strong class="gold">
+                        ₹18,500 / Night
+                    </strong>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+
+        <div class="section-title">
+
+            <h2>🍽️ OCEANIC DINING</h2>
+
+            <p>
+                Taste the world while sailing across it
+            </p>
+
+        </div>
+
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Restaurant</th>
+
+                    <th>Cuisine</th>
+
+                    <th>Deck</th>
+
+                    <th>Experience</th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                <tr>
+
+                    <td>
+                        🌊 Azure
+                    </td>
+
+                    <td>
+                        Mediterranean
+                    </td>
+
+                    <td>
+                        Deck 10
+                    </td>
+
+                    <td>
+
+                        <!-- NESTED TABLE -->
+
+                        <table class="nested-table">
+
+                            <tr>
+
+                                <th>Speciality</th>
+
+                                <th>Price</th>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>Seafood Platter</td>
+
+                                <td>₹1,200</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>Italian Pasta</td>
+
+                                <td>₹850</td>
+
+                            </tr>
+
+                        </table>
+
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        🔥 Ember
+                    </td>
+
+                    <td>
+                        International
+                    </td>
+
+                    <td>
+                        Deck 10
+                    </td>
+
+                    <td>
+                        Fine Dining
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        🍣 Sakura
+                    </td>
+
+                    <td>
+                        Japanese
+                    </td>
+
+                    <td>
+                        Deck 11
+                    </td>
+
+                    <td>
+                        Teppanyaki
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+
+
+       
+        <div class="section-title">
+
+            <h2>✨ ONBOARD EXPERIENCES</h2>
+
+            <p>
+                Every moment deserves a memory
+            </p>
+
+        </div>
+
+
+        <table class="experience-table">
+
+            <tr>
+
+              
+
+                <td colspan="3">
+
+                    <h2 class="gold">
+                        ✨ EXPERIENCE THE OCEANIC LIFESTYLE
+                    </h2>
+
+                </td>
+
+            </tr>
+
+
+            <tr>
+
+                <td>
+
+                    <img
+                        class="small-image"
+                        src="./images/oceanic_fitness.avif"
+                        alt="Cruise Gym">
+
+                    <h3>🏋️ Oceanic Fitness</h3>
+
+                    <p>
+                        State-of-the-art fitness center overlooking the ocean.
+                    </p>
+
+                </td>
+
+
+                <td>
+
+                    <img
+                        class="small-image"
+                        src="./images/oceanic_pool"
+                        alt="Luxury Pool">
+
+                    <h3>🏊 Infinity Pool</h3>
+
+                    <p>
+                        Relax while the endless ocean stretches before you.
+                    </p>
+
+                </td>
+
+
+                <td>
+
+                    <img
+                        class="small-image"
+                        src="./images/ocean_spa"
+                        alt="Spa">
+
+                    <h3>🧘 Serenity Spa</h3>
+
+                    <p>
+                        Premium spa treatments and complete relaxation.
+                    </p>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+
+        <div class="section-title">
+
+            <h2>🥂 CRUISE PACKAGES</h2>
+
+            <p>
+                Select your perfect voyage
+            </p>
+
+        </div>
+
+
+        <table class="package-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>Package</th>
+
+                    <th>Duration</th>
+
+                    <th>Includes</th>
+
+                    <th>Price</th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                <tr>
+
+                    <td>Explorer</td>
+
+                    <td>5 Nights</td>
+
+                    <td>Cabin + Meals</td>
+
+                    <td>₹75,000</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>Voyager</td>
+
+                    <td>7 Nights</td>
+
+                    <td>Suite + Meals + Spa</td>
+
+                    <td>₹1,25,000</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>Royal</td>
+
+                    <td>10 Nights</td>
+
+                    <td>Premium Suite + All Experiences</td>
+
+                    <td>₹2,10,000</td>
+
+                </tr>
+
+
+              
+
+                <tr>
+
+                    <td colspan="4" class="offer">
+
+                        🎁 EARLY BOOKING OFFER — SAVE 20%
+
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+
+    </div>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <h1>OCEANIC</h1>
+
+        <p>
+            Luxury Beyond The Horizon
+        </p>
+
+        <p>
+            &copy; 2026 Oceanic Cruises
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
