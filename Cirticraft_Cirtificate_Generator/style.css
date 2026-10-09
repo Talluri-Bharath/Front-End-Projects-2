@@ -1,0 +1,287 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f5fa;
+    color: #1e2b42;
+}
+
+.site-header {
+    text-align: center;
+    padding: 36px;
+    color: white;
+    background: #142744;
+}
+.title {
+    margin:7px;
+    color: #c9a95e;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    margin: 7px;
+    color: #e0e7f1;
+    line-height: 1.6;
+}
+
+.page-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
+   
+    margin: 32px;
+    
+}
+
+.form-panel,
+.preview-panel {
+    width: 50%;
+    background: white;
+    border: 1px solid #e1e6ef;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 10px 28px rgba(24, 42, 70, 0.06);
+}
+.preview-panel
+{
+    width: 90%;
+}
+.form-panel h2,
+.preview-panel h2 {
+    margin: 0;
+    color: #192d4a;
+}
+
+.panel-description {
+    margin: 8px 0 22px;
+    color: #69778c;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+label {
+    display: block;
+    margin: 16px 0 7px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #34445d;
+}
+
+input {
+    width: 100%;
+    padding: 12px 13px;
+    border: 1px solid #ccd5e2;
+    border-radius: 8px;
+    background: #fbfcff;
+    color: #1e2b42;
+    font: inherit;
+    outline: none;
+}
+
+input:focus {
+    border-color: #527eaf;
+    box-shadow: 0 0 0 3px rgba(82, 126, 175, 0.14);
+}
+
+button {
+    width: 100%;
+    margin-top: 22px;
+    padding: 13px 16px;
+    border: 0;
+    border-radius: 9px;
+    background: #c19a43;
+    color: #172842;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+button:hover {
+    background: #d4b45f;
+  
+}
+
+.message {
+    min-height: 18px;
+    margin: 12px 0 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: #a33b3b;
+}
+
+.small-note,
+.preview-note {
+    color: #748197;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+
+
+.preview-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.preview-tag {
+    padding: 7px 10px;
+    border-radius: 20px;
+    background: #f8f0dc;
+    color: #85631e;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+.certificate {
+    padding: 12px;
+    background: #f9f5e9;
+    border: 2px solid #c5a454;
+    
+}
+
+.certificate-inner {
+    min-height: 440px;
+    padding: 28px 22px;
+    border: 1px solid #d8c48f;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 2px #a09473;
+}
+
+.seal {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 42px;
+    height: 42px;
+    border: 2px solid #b28b34;
+    border-radius: 50%;
+    color: #a57b24;
+    font-size: 26px;
+}
+
+.certificate-kicker {
+    margin: 16px 0 0;
+    color: #1a3152;
+    font-size: 35px;
+    font-family: Georgia, "Times New Roman", serif;
+    letter-spacing: 4px;
+}
+
+.certificate-title {
+    margin: 5px 0 0;
+      color: #1a3152;
+    font-size: clamp(14px, 2vw, 20px);
+    letter-spacing: 5px;
+}
+
+.gold-line {
+    width: 100px;
+    height: 2px;
+    margin: 18px;
+    background: #b28b34;
+}
+
+.presented,
+.certificate-copy {
+    margin: 4px 0;
+    color: #667085;
+    font-size: 13px;
+}
+
+.student-name {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    margin: 12px 0;
+    color: #1a3152;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.course-name {
+    margin: 10px 0;
+    color: #a27c2d;
+    font-size: 25px;
+   
+}
+
+.institute-line {
+    margin: 4px 0 22px;
+    color: #475569;
+    font-size: 15px;
+    
+}
+
+.certificate-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.footer-label {
+    margin: 0 0 6px;
+    color: #8a7547;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+
+.footer-value {
+    margin: 0;
+    color: #34445d;
+    font-size: 11px;
+}
+
+.signature {
+    width: 145px;
+}
+
+.signature-line {
+    height: 1px;
+    margin-bottom: 7px;
+    background: #8b95a5;
+}
+
+.certificate-meta {
+    margin-top: 16px;
+    padding: 14px 16px;
+    border-radius: 10px;
+    background: #f5f7fb;
+    color: #536178;
+    font-size: 12px;
+}
+
+.certificate-meta p {
+    margin: 4px 0;
+   
+}
+
+.preview-note {
+    margin-bottom: 0;
+}
+
+.site-footer {
+    padding: 18px;
+    text-align: center;
+    color: #778398;
+    font-size: 12px;
+}

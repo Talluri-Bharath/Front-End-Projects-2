@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CertiCraft | Certificate Generator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./icons8-certificate-liquid-glass-color-96.png">
+</head>
+<body>
+    <header class="site-header">
+        <div>
+            <p class="title">CERTICRAFT STUDIO</p>
+            <h1>Make your achievement official.</h1>
+            <p class="subtitle">Create a personalized course completion certificate.</p>
+        </div>
+    </header>
+
+    <main class="page-layout">
+        <section class="form-panel">
+            <h2>Certificate Details</h2>
+            <p class="panel-description">Enter the details below, then generate your certificate.</p>
+
+            <label for="studentName">Student name</label>
+            <input type="text" id="studentName" placeholder="e.g. Bharath">
+
+            <label for="courseName">Course name</label>
+            <input type="text" id="courseName" placeholder="e.g. Full Stack Java">
+
+            <label for="instituteName">Institute name</label>
+            <input type="text" id="instituteName" placeholder="e.g. Naresh IT Technologies">
+
+            <label for="completionDate">Completion date</label>
+            <input type="date" id="completionDate">
+
+            <button  type="button" onclick="generatingCirtificate()">Generate Certificate</button>
+            <p id="message" class="message"></p>
+            <p class="small-note">Tip: Enter all details to create your certificate preview.</p>
+        </section>
+
+        <section class="preview-panel">
+            <div class="preview-heading">
+                <div>
+                    <p class="title">YOUR PREVIEW</p>
+                    <h2>Certificate Preview</h2>
+                </div>
+                <span class="preview-tag">LIVE DESIGN</span>
+            </div>
+
+            <article class="certificate" id="certificate">
+                <div class="certificate-inner">
+                    
+                    <div class="seal">★</div>
+                    
+                    <p class="certificate-kicker">CERTIFICATE</p>
+
+                    <h2 class="certificate-title">OF COMPLETION</h2>
+                    
+                    <div class="gold-line"></div>
+
+                    <p class="presented">This certificate is proudly presented to</p>
+                   
+                    <h3 id="displayStudent" class="student-name">YOUR NAME</h3>
+                   
+                    <p class="certificate-copy">for successfully completing the course</p>
+                   
+                    <h4 id="displayCourse" class="course-name">Your Course Name</h4>
+                   
+                    <p class="institute-line" id="displayInstitute">Your Institute Name</p>
+
+                    <div class="certificate-footer">
+                        <div>
+                            <p class="footer-label">COMPLETION DATE</p>
+                            <p id="displayDate" class="footer-value">To be announced</p>
+                        </div>
+                        <div class="signature">
+                            <div class="signature-line"></div>
+                            <p class="footer-value">Authorized Signature</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <div class="certificate-meta">
+                <p id="characterCount">Student name characters: 0</p>
+                <p id="uppercaseName">Uppercase preview: YOUR NAME</p>
+            </div>
+            <p class="preview-note">This is a practice project. It does not verify course completion or issue an official credential.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>CertiCraft Studio · Celebrate every step forward.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
