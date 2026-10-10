@@ -84,7 +84,11 @@ input {
     font: inherit;
     outline: none;
 }
-
+input::placeholder
+{
+    font-style: italic;
+    
+}
 input:focus {
     border-color: #527eaf;
     box-shadow: 0 0 0 3px rgba(82, 126, 175, 0.14);
