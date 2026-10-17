@@ -25,10 +25,7 @@ nav a{
     transition: 2s;
 }
 
-nav a:hover
-{
-    color: blue;
-}
+
 
 .hero
 {
