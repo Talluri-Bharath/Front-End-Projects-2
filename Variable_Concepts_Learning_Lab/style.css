@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+ 
+    background-color: #080808;
+    color: #F5F5F5;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+       background-color: #171717;
+    border-bottom: 2px solid #D4AF37;
+    box-shadow: 0px 1px 20px #a8934a;
+}
+
+header img{
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #D4AF37;
+}
+
+header h1 {
+    color: #D4AF37;
+    margin-bottom: 12px;
+    letter-spacing: 3px;
+}
+
+header p {
+     color: #BDBDBD;
+}
+
+main {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.intro {
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 30px;
+ background-color: #171717;
+    border-radius: 12px;
+}
+.intro img
+{
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #D4AF37;
+}
+
+.intro h2 {
+     color: #F5E6A8;
+    margin-bottom: 12px;
+}
+
+.intro p {
+    color: #BDBDBD;
+    line-height: 1.6;
+}
+
+.lab-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.lab-card {
+    background-color: #171717;
+    border: 1px solid #383020;
+    padding: 25px;
+    border-radius: 12px;
+    transition-property: box-shadow;
+    transition-duration: 1s;
+}
+
+.lab-card:hover
+{
+        box-shadow: 0px 0px 10px #D4AF37;
+}
+
+.lab-card h2 {
+     color: #D4AF37;
+    margin-bottom: 15px;
+}
+
+.lab-card p {
+     color: #BDBDBD;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+label {
+    display: block;
+    margin: 12px 0 7px;
+   color: #F5E6A8;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    background-color: #080808;
+    border: 1px solid #383020;
+    color: #F5F5F5;
+    border-radius: 6px;
+    outline: none;
+}
+
+input:focus {
+   border-color: #D4AF37;
+}
+
+button {
+    width: 100%;
+    margin-top: 18px;
+    padding: 12px;
+    background-color: #D4AF37;
+    color: #080808;
+    border: none;
+    border-radius: 6px;
+  
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #514721;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+   color: #BDBDBD;
+    margin-top: 30px;
+}
+

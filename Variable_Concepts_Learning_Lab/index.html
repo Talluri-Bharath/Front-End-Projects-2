@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Variable Concepts Learning Lab</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/Neon_Gold_icon.png">
+</head>
+
+<body>
+
+    <header>
+        <img src="./images/Variables_Concept_logo.png" alt="" width="150px" height="120px">
+        <h1>VARIABLE CONCEPTS LAB</h1>
+        <p>Explore JavaScript Variables Interactively</p>
+    </header>
+
+    <main>
+
+        <section class="intro">
+            <h2>Welcome to the Learning Lab</h2>
+
+            <img src="./images/Variable_Banner.png" alt="" width="100%" height="350px">
+
+            <p>
+                Learn how JavaScript variables work by performing
+                experiments and observing the output.
+            </p>
+        </section>
+
+        <section class="lab-container">
+
+           
+            <div class="lab-card">
+
+                <h2>01. VAR LAB</h2>
+
+                <p>
+                    Explore declaration, initialization and reassignment.
+                </p>
+
+                <label for="varName">Variable Name</label>
+                <input type="text" id="varName" value="studentName" readonly>
+
+                <label for="varValue">Variable Value</label>
+                <input type="text" id="varValue" value="Bharath kumar" readonly>
+
+                <button onclick="runVarLab()">
+                    Run VAR Experiment
+                </button>
+
+               
+
+            </div>
+
+
+            <div class="lab-card">
+
+                <h2>02. LET LAB</h2>
+
+                <p>
+                    Explore block scope and reassignment.
+                </p>
+
+                <label for="letValue">Initial Value</label>
+                <input type="text" id="letValue" value="75" readonly>
+
+                <label for="letNewValue">New Value</label>
+                <input type="text" id="letNewValue" value="95" readonly>
+
+                <button onclick="runLetLab()">
+                    Run LET Experiment
+                </button>
+
+
+            </div>
+
+
+     
+            <div class="lab-card">
+
+                <h2>03. CONST LAB</h2>
+
+                <p>
+                    Explore constant variables and reassignment.
+                </p>
+
+                <label for="constValue">Initial Value</label>
+                <input type="text" id="constValue" value="JavaScript">
+
+                <button onclick="runConstLab()">
+                    Run CONST Experiment
+                </button>
+
+              
+            </div>
+
+
+            <div class="lab-card">
+
+                <h2>04. UNDEFINED LAB</h2>
+
+                <p>
+                    Observe the value of a declared but uninitialized variable.
+                </p>
+
+                <button onclick="runUndefinedLab()">
+                    Run Undefined Experiment
+        </button>
+
+
+            </div>
+
+
+            <div class="lab-card">
+
+                <h2>05. SCOPE LAB</h2>
+
+                <p>
+                    Explore function scope and block scope.
+                </p>
+
+                <button onclick="runScopeLab()">
+                    Run Scope Experiment
+                </button>
+
+             
+
+            </div>
+
+
+            <div class="lab-card">
+
+                <h2>06. HOISTING LAB</h2>
+
+                <p>
+                    Explore how var behaves before its declaration.
+                </p>
+
+                <button onclick="runHoistingLab()">
+                    Run Hoisting Experiment
+                </button>
+
+               
+
+            </div>
+
+            <div class="lab-card">
+
+    <h2>08. CONFIRM LAB</h2>
+
+    <p>
+        Explore how confirm() receives a response from the user.
+    </p>
+
+    <button onclick="runConfirmLab()">
+        Run Confirm Experiment
+    </button>
+
+</div>
+
+
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Variable Concepts Learning Lab | JavaScript Practice</p>
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
