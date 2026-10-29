@@ -107,22 +107,3 @@ function runHoistingLab() {
 
     alert("VAR declaration is hoisted, but initialization is not.");
 }
-
-
-
-
-function runConfirmLab() {
-
-    var userChoice = confirm("Do you want to continue?");
-
-    if (userChoice) {
-
-        document.write("<h2>You selected OK!</h2>");
-
-    } else {
-
-        document.write("<h2>You selected Cancel!</h2>");
-
-    }
-
-}
