@@ -5,7 +5,7 @@ function buyProduct(name, price) {
     let quantity = prompt("Enter product quantity:");
 
     if (quantity === null) {
-        alert("Shopping cancelled!\n\nplease enter some Quantity to continue shopping!!");
+        alert("Shopping cancelled!!");
         return;
     }
 
