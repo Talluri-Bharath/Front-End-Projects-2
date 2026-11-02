@@ -1,0 +1,91 @@
+  * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f1efff;
+            color: #29204d;
+        }
+
+        header {
+            background-color: #5b3cc4;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            margin: 0;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .hero {
+            min-height: 85vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .welcome-card {
+            max-width: 650px;
+            background-color: white;
+            padding: 50px 35px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px #d6cef2;
+        }
+
+        .icon {
+            font-size: 75px;
+            margin-bottom: 15px;
+        }
+
+        .welcome-card h1 {
+            font-size: 40px;
+            margin-bottom: 15px;
+            color: #5b3cc4;
+        }
+
+        .welcome-card p {
+            font-size: 17px;
+            line-height: 1.7;
+            color: #6b6484;
+        }
+
+        .features {
+            margin: 25px 0;
+            font-size: 20px;
+            line-height: 2;
+        }
+
+        .start-btn {
+            display: inline-block;
+            padding: 15px 35px;
+            background-color: #5b3cc4;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 17px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .start-btn:hover {
+            background-color: #432b9b;
+            transform: translateY(-3px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #77708e;
+        }
